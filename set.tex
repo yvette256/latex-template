@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath, amsthm, amssymb, graphicx, multicol, array}
+\usepackage{fancyhdr, lastpage}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\newcommand{\classname}{CS 21}
+\newcommand{\setname}{Set 1}
+\newcommand{\authorname}{Yvette Lin}
+\newcommand{\duedate}{April 20, 2069}
+
+\newenvironment{problem}[2][Problem]{\begin{trivlist} \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\classname\ \setname}
+\rhead{\authorname}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\fancypagestyle{titlepagestyle}{
+    \fancyhead{}
+    \renewcommand{\headrulewidth}{0pt}
+    \cfoot{\thepage\ of \pageref{LastPage}}
+}
+
+\begin{document}
+ 
+\title{\classname \ \setname}
+\author{\authorname}
+\date{\duedate}
+\maketitle
+\thispagestyle{titlepagestyle}
+ 
+\begin{problem}{1.1}
+    Delete this text and write theorem statement here.
+\end{problem}
+
+\begin{proof}[Solution]
+    Write a solution here.
+\end{proof}
+
+\pagebreak
+
+\begin{problem}{1.2}
+    Another problem.
+\end{problem}
+
+\begin{proof}[Solution]
+    Another solution.
+\end{proof}
+
+\end{document}
