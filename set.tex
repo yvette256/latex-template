@@ -42,6 +42,7 @@
 \renewcommand{\vec}[1]{\mathbf{#1}}
 
 \newenvironment{problem}[2][Problem]{\begin{trivlist} \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -69,9 +70,9 @@
     Delete this text and write theorem statement here.
 \end{problem}
 
-\begin{proof}[Solution]
+\begin{solution}
     Write a solution here.
-\end{proof}
+\end{solution}
 
 \pagebreak
 
@@ -79,8 +80,8 @@
     Another problem.
 \end{problem}
 
-\begin{proof}[Solution]
+\begin{solution}
     Another solution.
-\end{proof}
+\end{solution}
 
 \end{document}
