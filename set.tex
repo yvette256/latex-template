@@ -44,6 +44,8 @@
 \newenvironment{problem}[2][Problem]{\begin{trivlist} \item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
 \newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
 
+\newcommand{\prob}[1]{\begin{problem}{#1}\end{problem}}
+
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{\class\ \set}
@@ -76,9 +78,7 @@
 
 \pagebreak
 
-\begin{problem}{1.2}
-    Another problem.
-\end{problem}
+\prob{1.2}
 
 \begin{solution}
     Another solution.
