@@ -1,3 +1,3 @@
-# LaTeX Templates
+# LaTeX Template
 
-A collection of templates for different things.
+A personal template I commonly use for sets, papers, etc.
